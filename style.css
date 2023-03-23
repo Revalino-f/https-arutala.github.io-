@@ -244,6 +244,7 @@ body {
   width: 220px;
   height: 220px;
 }
+
 @media only screen and (max-width: 768px) {
   .body {
     overlay: hidden;
