@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(180deg, #feb47b 0%, #765285 100%);
+  background-attachment: fixed;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem 7%;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("backiee-218766-landscape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: relative;
+}
+.hero h1 {
+  position: center;
+}
+.title h5 {
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 800;
+}
+
+.countdown {
+  font-weight: 500;
+  text-align: center;
+}
+.time {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.box {
+  justify-content: space-evenly;
+  width: 500px;
+  height: 60px;
+
+  border-radius: 8px;
+  font-family: "Philosopher", sans-serif;
+}
+.countdown .time .box1 h4 {
+  padding-top: 35px;
+  color: rgb(255, 255, 255);
+}
+.countdown .time .box2 h4 {
+  padding-top: 35px;
+  color: rgb(255, 255, 255);
+}
+.countdown .time .box3 h4 {
+  padding-top: 35px;
+  color: rgb(255, 255, 255);
+}
+.countdown .time .box4 h4 {
+  padding-top: 35px;
+  color: rgb(255, 255, 255);
+}
+.box1 {
+  margin: 0.3em;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255 0.999);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+.box2 {
+  margin: 0.3em;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255 0.199);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+.box3 {
+  margin: 0.3em;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255 0.199);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+.box4 {
+  margin: 0.3em;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255 0.199);
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+.box1 h6 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  padding-top: 15px;
+  color: black;
+}
+
+.box2 h6 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  padding-top: 15px;
+  color: black;
+}
+.box3 h6 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  padding-top: 15px;
+  color: black;
+}
+.box4 h6 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 700;
+  padding-top: 15px;
+  color: black;
+}
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+.desc {
+  color: white;
+}
+.desc h2 {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.desc p {
+  font-family: "Philosopher", sans-serif;
+  text-align: justify;
+}
+.lomba h4 {
+  font-family: "Philosopher", sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+.lomba hr {
+  width: 1220px;
+  color: white;
+}
+.row2 img {
+  width: 200px;
+  height: 200px;
+  transition: all 0.5s ease-out;
+}
+.row3 img {
+  width: 200px;
+  height: 200px;
+  transition: all 0.5s ease-out;
+}
+.row2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+.row3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.row4 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.row4 img {
+  width: 200px;
+  height: 200px;
+  transition: all 0.5s ease-out;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+.link a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-family: "Philosopher", sans-serif;
+}
+.info h5 {
+  color: white;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.follow h5 {
+  color: white;
+  font-family: "Philosopher", sans-serif;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.creator a {
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-family: "Philosopher", sans-serif;
+}
+.creator h5 {
+  color: white;
+  font-weight: 500;
+  color: white;
+  font-family: "Philosopher", sans-serif;
+}
+.sosmed img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.row2 img:hover {
+  width: 220px;
+  height: 220px;
+}
+.row3 img:hover {
+  width: 220px;
+  height: 220px;
+}
+@media only screen and (max-width: 768px) {
+  .body {
+    overlay: hidden;
+  }
+  html {
+    overflow: auto;
+  }
+  .about {
+    display: block;
+    text-align: center;
+  }
+  .desc p {
+    text-align: center;
+    font-size: 3vw;
+  }
+  hr {
+    width: 200px;
+  }
+  .row2 {
+    display: block;
+    text-align: center;
+  }
+  .row3 {
+    display: block;
+    text-align: center;
+  }
+  .footer {
+    display: block;
+    text-align: left;
+    margin-left: 40px;
+  }
+  .logo {
+    margin-bottom: 30px;
+  }
+  .info {
+    margin-bottom: 30px;
+  }
+  .follow {
+    margin-bottom: 30px;
+  }
+  .creator {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 454px) {
+  .countdown {
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .time {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .countdown .time .box1 h4 {
+    padding-top: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .countdown .time .box2 h4 {
+    padding-top: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .countdown .time .box3 h4 {
+    padding-top: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .countdown .time .box4 h4 {
+    padding-top: 28px;
+    color: rgb(255, 255, 255);
+  }
+  .box {
+    justify-content: space-evenly;
+    width: 500px;
+    height: 60px;
+    font-family: "Philosopher", sans-serif;
+  }
+  .box1 {
+    margin: 0.3em;
+    line-height: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255 0.999);
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+  .box2 {
+    margin: 0.3em;
+    line-height: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255 0.199);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .box3 {
+    margin: 0.3em;
+    line-height: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255 0.199);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .box4 {
+    margin: 0.3em;
+    line-height: 100px;
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255 0.199);
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+  }
+  .box1 h6 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    padding-top: px;
+    color: black;
+  }
+
+  .box2 h6 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+    color: black;
+  }
+  .box3 h6 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+    color: black;
+  }
+  .box4 h6 {
+    font-family: "Philosopher", sans-serif;
+    font-weight: 700;
+    padding-top: 15px;
+    color: black;
+  }
+}
